@@ -1,0 +1,4 @@
+# This folder 'ghostty' it should be replaced in '/home/meduser/.config', That's mean you have to remove the old one.              
+#It has the shaders configuration and the terminal configuration                                                                                                                 
+
+#The source code from shaders is : 'https://github.com/KroneCorylus/ghostty-shader-playground/tree/main/public/shaders'

@@ -1,0 +1,1 @@
+#This file is for archlinux logo in fastfetch, And it should be replaced in the home.

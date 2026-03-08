@@ -1,0 +1,2 @@
+#This 'hyprlock.conf' file should be '~/home/meduser/.config/hypr'
+#And you should remove the old hyprlockfile and replaced with the new file, Or remove the content of the old file and replaced with the new content file.

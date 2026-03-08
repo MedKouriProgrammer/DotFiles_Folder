@@ -1,0 +1,20 @@
+# Add Sleep mode and Hybernate :
+
+### Path: ~/`.local/share/omarchy/bin/omarchy-menu. 
+
+#show_system_menu() {
+  local options="  Lock\n󱄄  Screensaver"
+  [ -f ~/.local/state/omarchy/toggles/suspend-on ] && options="$options\n󰒲  Suspend"
+  omarchy-hibernation-available && options="$options\n󰤁  Hibernate"
+  options="$options\n󰜉  Restart\n󰐥  Shutdown"
+
+  case $(menu "System" "$options") in
+  *Lock*) omarchy-lock-screen ;;
+  *Screensaver*) omarchy-launch-screensaver force ;;
+  *Suspend*) systemctl suspend ;;
+  *Hibernate*) systemctl hibernate ;;
+  *Restart*) omarchy-cmd-reboot ;;
+  *Shutdown*) omarchy-cmd-shutdown ;;
+  *) back_to show_main_menu ;;
+  esac
+}

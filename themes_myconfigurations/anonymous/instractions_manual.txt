@@ -1,0 +1,2 @@
+#This 'extrathemes' folder should be in '~/home/meduser/.config/omarchy/themes'
+#You can downlowd this theme but it haven't my wallpapers so i give this folder because it heve my configuration like modification on hyprland.txt and add new wallpapers.
