@@ -1,0 +1,22 @@
+Source Code: https://github.com/ful1e5/Bibata_Cursor
+
+1- Install The Theme:
+# yay -S bibata-cursor-theme-bin
+
+
+2- Modificate the Cursor Scale:
+# nvim ~/.config/hypr/looknfeel.conf
+
+Add in the end of the file: 
+# env = XCURSOR_THEME,Bibata-Modern-Classic
+# env = XCURSOR_SIZE,24
+
+Enter in the secon file:
+# nvim ~/.config/hypr/autostart.conf
+
+Modificate the final phrase:
+# exec-once = hyprctl setcursor Bibata-Modern-Classic 24
+
+
+3- Reload hyprctl cursor:
+# hyprctl setcursor Bibata-Modern-Classic 24
